@@ -1,4 +1,4 @@
-< type="text/java" language="Java"><!--
+<script type="text/javascript" language="JavaScript"><!--
 function HideContent(d) {
 document.getElementById(d).style.display = "none";
 }
@@ -9,7 +9,7 @@ function ReverseDisplay(d) {
 if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
 else { document.getElementById(d).style.display = "none"; }
 }
-</>
+</script>
 
 <style>
 .center {
@@ -30,10 +30,10 @@ div {
 }
 
 </style>
-< src="http://assets.tumblr.com/assets/s/tumblelog.js?_v=454fc1618d865ba96c0749de3c9277c9"></>
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=454fc1618d865ba96c0749de3c9277c9"></script>
 
 <link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
-<meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:deion" content="slimedrippings" /><meta name="twitter:title" content="slimedrippings" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=slimedrippings&referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=slimedrippings&referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=slimedrippings&referrer=twitter-cards" />
+<meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="slimedrippings" /><meta name="twitter:title" content="slimedrippings" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=slimedrippings&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=slimedrippings&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=slimedrippings&amp;referrer=twitter-cards" />
 
 <link rel="canonical" href="http://slimedrippings.tumblr.com/gamefaqssort" />
 
@@ -53,7 +53,7 @@ The sorter uses GameFAQs' list of 128 games, which were apparently nominated in 
 </p>
 </div>
 
-<a href="">
+<a href="javascript:ReverseDisplay('1')">
 [Click to show/hide]
 </a>
 
@@ -69,7 +69,7 @@ Using this sorter can take between 127 and 448 "battles", so please make yoursel
 </p>
 </div>
 
-<a href="">
+<a href="javascript:ReverseDisplay('2')">
 [Click to show/hide]
 </a>
 
@@ -79,9 +79,9 @@ Using this sorter can take between 127 and 448 "battles", so please make yoursel
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
 <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<meta http-equiv="Content--Type" content="text/java">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
 <title>Sort some games or something!</title>
-< type="text/java">
+<script type="text/javascript">
 <!--
 // Add the names of the characters you wish to sort below.
 //
@@ -422,7 +422,7 @@ function toNameFace(n){
 	return str;
 }
 //-->
-</>
+</script>
 <style type="text/css">
 
 iframe {display:none !important;}
@@ -456,7 +456,7 @@ iframe {display:none !important;}
 <style type="text/css">figure {margin: 0;}</style>
 <link rel="stylesheet" type="text/css" href="http://st.shinobi.jp/img/services/homepage/commercial.css" /><meta name="robots" content="noindex"/>
 
-< src="http://assets.tumblr.com/assets/s/tumblelog.js?_v=454fc1618d865ba96c0749de3c9277c9"></>
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=454fc1618d865ba96c0749de3c9277c9"></script>
 
 <link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
 
@@ -467,18 +467,18 @@ iframe {display:none !important;}
 <table id="mainTable" align="center">
 	<tr>
 		<td id="battleNumber" colspan="3" style="padding-bottom: 10px;">
-			 
+			&nbsp;
 		</td>
 	</tr>
 	<tr>
 		<td id="leftField" onClick="if(finishFlag==0)sortList(-1);" rowspan="2">
-			 
+			&nbsp;
 		</td>
 		<td class="middleField" onClick="if(finishFlag==0)sortList(0);">
 			I feel the same way about both
 		</td>
 		<td id="rightField" onClick="if(finishFlag==0)sortList(1);" rowspan="2">
-			 
+			&nbsp;
 		</td>
 	</tr>
 	
@@ -486,11 +486,11 @@ iframe {display:none !important;}
 </table><br><br>
 <div id="resultField" style="text-align:center;">
 </div>
-< type="text/java">
+<script type="text/javascript">
 	initList();
 	showImage();
-</>
-</ul><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe>< type="text/java">
+</script>
+</ul><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
     (function(){
         var analytics_frame = document.getElementById('ga_target');
         var analytics_iframe_loaded;
@@ -556,7 +556,7 @@ iframe {display:none !important;}
                 }
                     }
     })();
-</>< type="text/java">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1448357612&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxhenNvcnQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=PDDAAABDPM&K=551dc6c78c8e3852c5d2f44c113ba4487bc337a7a206022f1970787b619f4870&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</><no><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1448357612&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxhenNvcnQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=PDDAAABDPM&K=bed38554c21eea8e3f135e96bdc3432d3c64e96d54026c48df7c368bd3da6a85&R="></no>< >
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1448357612&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxhenNvcnQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=PDDAAABDPM&K=551dc6c78c8e3852c5d2f44c113ba4487bc337a7a206022f1970787b619f4870&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1448357612&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxhenNvcnQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=PDDAAABDPM&K=bed38554c21eea8e3f135e96bdc3432d3c64e96d54026c48df7c368bd3da6a85&R="></noscript><script >
         (function (w,d) {
             'use strict';
             var l = function(el, type, listener, useCapture) {
@@ -568,17 +568,17 @@ iframe {display:none !important;}
                                 if (d.getElementById('tumblr-cdx')) {
                     return;
                 }
-                var s = d.createElement('');
-                var el = d.getElementsByTagName('')[0];
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
                 s.async = true;
-                s.src = 'http://assets.tumblr.com/assets/s/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
-                s.type = 'text/java';
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
                 s.id = 'tumblr-cdx';
                 d.body.appendChild(s);
             };
             l(w,'load',a);
         }(window, document));
-</>< >
+</script><script >
         (function (w,d) {
             'use strict';
             var l = function(el, type, listener, useCapture) {
@@ -590,18 +590,18 @@ iframe {display:none !important;}
                                 if (d.getElementById('tumblr-cdx')) {
                     return;
                 }
-                var s = d.createElement('');
-                var el = d.getElementsByTagName('')[0];
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
                 s.async = true;
-                s.src = 'http://assets.tumblr.com/assets/s/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
-                s.type = 'text/java';
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
                 s.id = 'tumblr-cdx';
                 d.body.appendChild(s);
             };
             l(w,'load',a);
         }(window, document));
-</><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=321e518cb9b2cf082d604d6757c75da1#src=http%3A%2F%2Fblazsort.tumblr.com%2F&lang=en_US&name=blazsort&brag=false&avatar=http%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_avatar_64.png&title=BlazBlue+Character+Sort&url=http%3A%2F%2Fblazsort.tumblr.com%2F&page_slide=slide"></iframe>
-<div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://assets.tumblr.com/assets/html/iframe/teaser.html?_v=45631c19c03dbcf0e4dc673313d6c70d#src=http%3A%2F%2Fblazsort.tumblr.com%2F&lang=en_US&name=blazsort&brag=false&avatar=http%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_avatar_64.png&title=BlazBlue+Character+Sort&url=http%3A%2F%2Fblazsort.tumblr.com%2F&page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div>< type="text/java">
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=321e518cb9b2cf082d604d6757c75da1#src=http%3A%2F%2Fblazsort.tumblr.com%2F&amp;lang=en_US&amp;name=blazsort&amp;brag=false&amp;avatar=http%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_avatar_64.png&amp;title=BlazBlue+Character+Sort&amp;url=http%3A%2F%2Fblazsort.tumblr.com%2F&amp;page_slide=slide"></iframe>
+<div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://assets.tumblr.com/assets/html/iframe/teaser.html?_v=45631c19c03dbcf0e4dc673313d6c70d#src=http%3A%2F%2Fblazsort.tumblr.com%2F&amp;lang=en_US&amp;name=blazsort&amp;brag=false&amp;avatar=http%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_avatar_64.png&amp;title=BlazBlue+Character+Sort&amp;url=http%3A%2F%2Fblazsort.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
     (function(Tumblr){
         var follow_iframe_initialized = false;
         if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
@@ -619,4 +619,4 @@ iframe {display:none !important;}
             });
         }
     })(this.Tumblr || (this.Tumblr = {}));
-</>
+</script>
